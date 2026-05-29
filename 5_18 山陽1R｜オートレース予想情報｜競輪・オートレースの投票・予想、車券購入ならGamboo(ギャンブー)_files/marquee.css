@@ -1,0 +1,155 @@
+@charset "utf-8";
+.marquee {
+width:100%;
+padding:0.5em 0;
+overflow:hidden;
+background-color:#f6f6f6;
+margin-bottom:10px;
+position:relative;
+}
+
+.marquee.keirin {
+background-color:#e6f6ff;
+
+
+}
+.marquee.autorace {
+background-color:#ffeeee;
+
+
+}
+
+.topRaceKeirin .marquee.keirin,
+.topRaceAutorace .marquee
+{
+width: 99%;
+margin-right: 1%;	
+}
+.marquee p:after {
+content:"";
+white-space:nowrap;
+padding-right:50px;
+}
+
+.marquee p {
+margin:0;
+padding-left:100%;
+display:inline-block;
+white-space:nowrap;
+	animation-name:marquee;
+	animation-timing-function:linear;
+	
+	animation-iteration-count:infinite;
+}
+
+.marquee.keirin p,
+.marquee.autorace p, {
+margin:0;
+padding-left:100%;
+display:inline-block;
+white-space:nowrap;
+	animation-name:marquee;
+	animation-timing-function:linear;
+	
+	animation-iteration-count:infinite;
+}
+
+.marquee p a{
+padding:0px 15px;	
+}
+
+@keyframes marquee {
+  from   { transform: translate(0%);}
+  99%,to { transform: translate(-100%);}
+}
+.marquee.r10 p{animation-duration:10s;}
+.marquee.r11 p{animation-duration:11s;}
+.marquee.r12 p{animation-duration:12s;}
+.marquee.r13 p{animation-duration:13s;}
+.marquee.r14 p{animation-duration:14s;}
+.marquee.r15 p{animation-duration:15s;}
+.marquee.r16 p{animation-duration:16s;}
+.marquee.r17 p{animation-duration:17s;}
+.marquee.r18 p{animation-duration:18s;}
+.marquee.r19 p{animation-duration:19s;}
+.marquee.r20 p{animation-duration:20s;}
+.marquee.r21 p{animation-duration:21s;}
+.marquee.r22 p{animation-duration:22s;}
+.marquee.r23 p{animation-duration:23s;}
+.marquee.r24 p{animation-duration:24s;}
+.marquee.r25 p{animation-duration:25s;}
+.marquee.r26 p{animation-duration:26s;}
+.marquee.r27 p{animation-duration:27s;}
+.marquee.r28 p{animation-duration:28s;}
+.marquee.r29 p{animation-duration:29s;}
+.marquee.r30 p{animation-duration:30s;}
+.marquee.r31 p{animation-duration:31s;}
+.marquee.r32 p{animation-duration:32s;}
+.marquee.r33 p{animation-duration:33s;}
+.marquee.r34 p{animation-duration:34s;}
+.marquee.r35 p{animation-duration:35s;}
+.marquee.r36 p{animation-duration:36s;}
+.marquee.r37 p{animation-duration:37s;}
+.marquee.r38 p{animation-duration:38s;}
+.marquee.r39 p{animation-duration:39s;}
+.marquee.r40 p{animation-duration:40s;}
+.marquee.r41 p{animation-duration:41s;}
+.marquee.r42 p{animation-duration:42s;}
+.marquee.r43 p{animation-duration:43s;}
+.marquee.r44 p{animation-duration:44s;}
+.marquee.r45 p{animation-duration:45s;}
+.marquee.r46 p{animation-duration:46s;}
+.marquee.r47 p{animation-duration:47s;}
+.marquee.r48 p{animation-duration:48s;}
+.marquee.r49 p{animation-duration:49s;}
+.marquee.r50 p{animation-duration:50s;}
+.marquee.r51 p{animation-duration:51s;}
+.marquee.r52 p{animation-duration:52s;}
+.marquee.r53 p{animation-duration:53s;}
+.marquee.r54 p{animation-duration:54s;}
+.marquee.r55 p{animation-duration:55s;}
+.marquee.r56 p{animation-duration:56s;}
+.marquee.r57 p{animation-duration:57s;}
+.marquee.r58 p{animation-duration:58s;}
+.marquee.r59 p{animation-duration:59s;}
+.marquee.r60 p{animation-duration:60s;}
+.marquee.r61 p{animation-duration:61s;}
+.marquee.r62 p{animation-duration:62s;}
+.marquee.r63 p{animation-duration:63s;}
+.marquee.r64 p{animation-duration:64s;}
+.marquee.r65 p{animation-duration:65s;}
+.marquee.r66 p{animation-duration:66s;}
+.marquee.r67 p{animation-duration:67s;}
+.marquee.r68 p{animation-duration:68s;}
+.marquee.r69 p{animation-duration:69s;}
+.marquee.r70 p{animation-duration:70s;}
+.marquee.r71 p{animation-duration:71s;}
+.marquee.r72 p{animation-duration:72s;}
+.marquee.r73 p{animation-duration:73s;}
+.marquee.r74 p{animation-duration:74s;}
+.marquee.r75 p{animation-duration:75s;}
+.marquee.r76 p{animation-duration:76s;}
+.marquee.r77 p{animation-duration:77s;}
+.marquee.r78 p{animation-duration:78s;}
+.marquee.r79 p{animation-duration:79s;}
+.marquee.r80 p{animation-duration:80s;}
+.marquee.r81 p{animation-duration:81s;}
+.marquee.r82 p{animation-duration:82s;}
+.marquee.r83 p{animation-duration:83s;}
+.marquee.r84 p{animation-duration:84s;}
+.marquee.r85 p{animation-duration:85s;}
+.marquee.r86 p{animation-duration:86s;}
+.marquee.r87 p{animation-duration:87s;}
+.marquee.r88 p{animation-duration:88s;}
+.marquee.r89 p{animation-duration:89s;}
+.marquee.r90 p{animation-duration:90s;}
+.marquee.r91 p{animation-duration:91s;}
+.marquee.r92 p{animation-duration:92s;}
+.marquee.r93 p{animation-duration:93s;}
+.marquee.r94 p{animation-duration:94s;}
+.marquee.r95 p{animation-duration:95s;}
+.marquee.r96 p{animation-duration:96s;}
+.marquee.r97 p{animation-duration:97s;}
+.marquee.r98 p{animation-duration:98s;}
+.marquee.r99 p{animation-duration:99s;}
+.marquee.r100 p{animation-duration:100s;}
